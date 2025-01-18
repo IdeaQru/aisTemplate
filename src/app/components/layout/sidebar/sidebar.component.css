@@ -160,6 +160,8 @@
 
 /* Unique Effect for Sidebar Footer */
 .sidebar-footer {
+
+  
     margin-top: auto;
     padding: 1rem;
     background: linear-gradient(to left, rgba(255, 97, 153, 0.6), rgba(123, 97, 255, 0.8));
