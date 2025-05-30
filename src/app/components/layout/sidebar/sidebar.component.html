@@ -6,7 +6,7 @@
   
     <!-- Sidebar Header -->
     <div class="sidebar-header" *ngIf="!isMinimized">
-      Template Comel
+      Menu
     </div>
   
     <!-- Sidebar Navigation -->
@@ -19,57 +19,28 @@
         </a>
       </li>
   
-      <!-- Data AIS -->
+      <!-- Data analisa -->
       <li class="nav-item">
-        <a routerLink="/ais-data" class="nav-link">
+        <a routerLink="/analytic" class="nav-link">
           <i class="fas fa-database"></i>
-          <span *ngIf="!isMinimized">AIS Data</span>
+          <span *ngIf="!isMinimized">Analytic Data</span>
         </a>
       </li>
   
       <!-- Sensor Management -->
       <li class="nav-item">
-        <a routerLink="/sensors" class="nav-link">
+        <a routerLink="/sensor" class="nav-link">
           <i class="fas fa-satellite-dish"></i>
           <span *ngIf="!isMinimized">Sensor Management</span>
         </a>
       </li>
-  
-      <!-- Anomaly Detection -->
-      <li class="nav-item">
-        <a routerLink="/anomaly-detection" class="nav-link">
-          <i class="fas fa-exclamation-triangle"></i>
-          <span *ngIf="!isMinimized">Anomaly Detection</span>
-        </a>
-      </li>
-  
-      <!-- Reports -->
-      <li class="nav-item">
-        <a href="#reportMenu" class="nav-link dropdown-toggle" data-bs-toggle="collapse" [attr.aria-expanded]="!isMinimized" aria-controls="reportMenu">
-          <i class="fas fa-chart-pie"></i>
-          <span *ngIf="!isMinimized">Reports</span>
-        </a>
-        <ul id="reportMenu" class="collapse" [ngClass]="{'show': !isMinimized}">
-          <li class="nav-item">
-            <a routerLink="/reports/summary" class="nav-link">
-              <i class="fas fa-file-alt"></i>
-              <span *ngIf="!isMinimized">Summary Report</span>
-            </a>
-          </li>
-          <li class="nav-item">
-            <a routerLink="/reports/detailed" class="nav-link">
-              <i class="fas fa-file-alt"></i>
-              <span *ngIf="!isMinimized">Detailed Report</span>
-            </a>
-          </li>
-        </ul>
-      </li>
-  
+      
+
       <!-- Settings -->
       <li class="nav-item">
-        <a routerLink="/settings" class="nav-link">
+        <a routerLink="/ColorShips" class="nav-link">
           <i class="fas fa-cogs"></i>
-          <span *ngIf="!isMinimized">Settings</span>
+          <span *ngIf="!isMinimized">Colorships</span>
         </a>
       </li>
     </ul>

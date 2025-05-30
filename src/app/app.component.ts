@@ -6,7 +6,7 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css'],
 })
 export class AppComponent {
-  title = 'aisIdeaqru';
+  title = 'Ais Template';
   trails: { id: string; x: number; y: number }[] = []; // Array untuk titik-titik sementara
 
   ngOnInit(): void {
